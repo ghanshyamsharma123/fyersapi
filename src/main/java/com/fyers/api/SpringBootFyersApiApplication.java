@@ -53,7 +53,7 @@ public class SpringBootFyersApiApplication {
 			double rsiValue = rsi.calculateRSI(closePriceList, closePriceList.size()-1); 
 			System.out.println("RSI Value  : "+rsiValue);
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.printStackTrace();  
 		}
 		
 	}
